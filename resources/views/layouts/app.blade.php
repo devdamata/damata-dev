@@ -12,21 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="bg-[#004643] text-white font-sans">
+<body class="bg-gray-100 text-gray-800 font-sans">
     <!-- Header -->
-    <header class="bg-black text-white">
-      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="/Users/Employee/Desktop/blog/home.html"><h1 class="text-2xl font-bold">DAMATA<span class="text-[#abd1c6]">DEV</span></h1></a>
-        <nav class="space-x-4 text-sm font-semibold">
-          <a href="/Users/Employee/Desktop/blog/home.html" class="hover:text-[#f9bc60]">INÍCIO</a>
-          <a href="#" class="hover:text-[#f9bc60]">RECENTES</a>
-          <a href="#" class="hover:text-[#f9bc60]">CONTEÚDOS</a>
-          <a href="#" class="hover:text-[#f9bc60]">TUTORIAIS</a>
-          <a href="#" class="hover:text-[#f9bc60]">APLICATIVOS</a>
-          <a href="#" class="hover:text-[#f9bc60]">INTERNET</a>
-          <a href="/Users/Employee/Desktop/blog/contato.html" class="hover:text-[#f9bc60]">CONTATO</a>
-        </nav>
-      </div>
+    <header class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
+            <a href="/"><h1 class="text-2xl font-bold text-gray-900">DAMATA<span class="text-gray-500">DEV</span></h1></a>
+            <nav class="space-x-8 text-sm font-medium">
+                <a href="{{ Route('home'); }}" class="text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 transition-all py-1">HOME</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 transition-all py-1">RECENTES</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 transition-all py-1">CONTEÚDOS</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 transition-all py-1">TUTORIAIS</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 transition-all py-1">APLICATIVOS</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 transition-all py-1">INTERNET</a>
+                <a href="{{ Route('contact'); }}" class="text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 transition-all py-1">CONTATO</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Main Content -->
